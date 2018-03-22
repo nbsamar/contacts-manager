@@ -1,5 +1,7 @@
-= form_for @contact, url: {action: "create"} do |f|
+= form_for [@contact, @phone_number], url: {action: "create"} do |f|
   = f.text_field :givenName
   = f.text_field :familyName
   = f.email_field :email
+  = f.text_field :phoneNumber
+
   = f.submit "Create"
