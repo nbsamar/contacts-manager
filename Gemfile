@@ -26,6 +26,8 @@ gem 'devise'
 gem 'slim'
 gem 'slim-rails'
 
+# cocoon simplifies Nested Forms
+gem "cocoon"
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

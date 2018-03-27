@@ -41,7 +41,7 @@ class ContactsController < ApplicationController
     params.require(:contact).permit(:givenName, :familyName, :email)
   end
   def phone_number_params
-    params.require(:phone_number).permit(:phoneNumber)
+    params.permit(:phoneNumber)
   end
   # def address_params
   #   params.require(:address).permit(:city, :street, :region, :postcode, :country)
